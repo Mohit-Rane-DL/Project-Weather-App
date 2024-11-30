@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.content{
+    text-align: center;
+}
+
+.location{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search{
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    background-color: lightseagreen;
+}
+
+.display-weather{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.weather-data{
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
